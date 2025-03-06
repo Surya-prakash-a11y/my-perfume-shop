@@ -1,0 +1,25 @@
+.search-box{
+margin-left: 25%;
+width: 300px;
+font-size: large;
+font-weight: bolder;
+font-style: italic;
+color: black;
+}
+
+.nav-item :hover{
+    background: black;
+    border-radius: 5px;
+}
+.nav-item{
+    font-size: large;
+}
+
+@media (max-width:768px){
+ 
+    .navbar-brand{
+       width: 100%;
+    }
+
+
+}
