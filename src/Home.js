@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState,useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
-// import Toastify from "toastify";
+
 
 // import p1 from './images/p1.jpg';
 import b1 from './images/b1.jpg';
@@ -511,5 +511,4 @@ export default Home;
 
 
 
-             /* <h1>Welcome to the Food CRUD App</h1>
-            <p>Use this app to manage the food database</p>  */
+        

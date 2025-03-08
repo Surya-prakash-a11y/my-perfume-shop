@@ -10,9 +10,7 @@ function CrudPage() {
 
 
 
-    useEffect(()=>{
-        fetchData();
-    },[])
+  
 
     //get the data
     const fetchData=()=>{
@@ -42,7 +40,9 @@ const updateFood = (id) => {
         Axios.delete(`http://localhost:3001/delete/${id}`).then(()=>fetchData());
     }
 
-
+    useEffect(()=>{
+        fetchData();
+    },[updateFood])
 
     return (
         <div className="container">
